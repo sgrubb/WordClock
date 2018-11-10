@@ -1,0 +1,6 @@
+.idea/*
+*.pyc
+*.vscode
+*.save
+clock.log*
+config.py

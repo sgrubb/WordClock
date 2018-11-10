@@ -1,0 +1,22 @@
+from constants import *
+
+# Initial sleep in seconds
+INITIAL_SLEEP = 1
+
+# LED Layout constants
+LED_LAYOUT = LED_LAYOUT_BOTTOM_RIGHT
+LED_LAYOUT_OFFSET = 0
+
+# Type of LED Strip used
+#STRIP_LIBRARY = STRIP_LIBRARY_DOTSTAR 
+STRIP_LIBRARY = STRIP_LIBRARY_WS2813 
+
+# Common strip config
+STRIP_DATA_PIN = 18	
+STRIP_BRIGHTNESS = 255     # Set to 0 for darkest and 255 for brightest
+STRIP_BRIGHTNESS_DIM = 40     # Set to 0 for darkest and 255 for brightest
+
+BDAY_MONTH = "12"
+BDAY_DAY = "12"
+BDAY_HOURS = "8-22"
+DIM_HOURS = "22-24 & 0-7"
